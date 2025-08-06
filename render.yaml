@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: neurox-n8n
+    env: docker
+    region: oregon
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+        value: "admin"
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: "your_secure_password"
+      - key: N8N_ENCRYPTION_KEY
+        value: "your_super_secret_key"

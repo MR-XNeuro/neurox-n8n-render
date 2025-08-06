@@ -1,0 +1,7 @@
+FROM n8nio/n8n
+
+ENV N8N_BASIC_AUTH_ACTIVE=true
+ENV N8N_BASIC_AUTH_USER=admin
+ENV N8N_BASIC_AUTH_PASSWORD=your_secure_password
+ENV N8N_ENCRYPTION_KEY=your_super_secret_key
+ENV GENERIC_TIMEZONE=Europe/Paris

@@ -14,3 +14,5 @@ services:
         value: "your_secure_password"
       - key: N8N_ENCRYPTION_KEY
         value: "your_super_secret_key"
+  - key: WEBHOOK_URL
+    value: https://neurox-n8n-render.onrender.com
